@@ -60,4 +60,10 @@ document.addEventListener('DOMContentLoaded', function() {
             changeSlide(currentSlide + 1);
         }, 2000);
     });
+    
+    // Disable right-click on the page
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+        return false;
+    });
 }); 

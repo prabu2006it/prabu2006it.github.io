@@ -415,6 +415,97 @@ footer {
     color: #2e7d32;
 }
 
+/* Book Tickets Section */
+.book-tickets {
+    background-color: #fff;
+    padding: 80px 20px;
+}
+
+.booking-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.booking-info {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.booking-info p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.booking-form {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #2e7d32;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #2e7d32;
+    outline: none;
+}
+
+.ticket-count {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.count-group {
+    flex: 1;
+    min-width: 120px;
+}
+
+.count-group label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.count-group input {
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+}
+
+.book-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    background-color: #2e7d32;
+    border: none;
+    cursor: pointer;
+}
+
+.book-btn:hover {
+    background-color: #1b5e20;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     header {
@@ -463,6 +554,15 @@ footer {
     .fare-card {
         width: 80%;
         max-width: 250px;
+    }
+    
+    .ticket-count {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .count-group {
+        width: 100%;
     }
 }
 
